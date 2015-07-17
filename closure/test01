@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+# _*_ coding: utf-8 _*_
+
+def counter_closure
+	count = 0
+	lambda {|n| count +=n }
+end
+
+count = 10
+
+p counter_closure.call(1)
+p counter_closure.call(2)
+p counter_closure.call(3)
+p counter_closure.call(4)
+p "---"
+counter = counter_closure
+p counter.call(1)
+p counter.call(2)
+p counter.call(3)
+p counter.call(4)

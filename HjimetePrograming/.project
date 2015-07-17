@@ -1,0 +1,43 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>HjimetePrograming</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.aptana.ide.core.unifiedBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.dltk.core.scriptbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.dltk.ruby.core.nature</nature>
+		<nature>com.aptana.ruby.core.rubynature</nature>
+	</natures>
+</projectDescription>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>HjimetePrograming</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.dltk.core.scriptbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.dltk.ruby.core.nature</nature>
+	</natures>
+</projectDescription>
+>>>>>>> branch 'master' of https://github.com/YoichiiKimura/RubyPrograming.git

@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+# _*_ coding: utf-8 _*_
+
+5.times do |x| print x, "\n" end
+
+a=["foo","bar","baz"]
+a.each do |x| print x, "\n" end
+
+def foo(x)
+	yield x
+end
+
+foo(10) do |x| print x,"\n" end
+
+def mapcar(ary)
+	a = []
+	for x in ary
+		a.push(yield x)
+	end
+	p a
+end
+
+a=[1,2,3,4,5]
+mapcar(a) {|x| x*x}
+
